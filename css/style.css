@@ -114,7 +114,6 @@ h2 {
 
 .header-section .middle-section img {
     width: 140px;
-
 }
 
 /* header-right-section */
@@ -335,7 +334,6 @@ h2 {
     transform: translate(0, -50%);
     font-size: 28px;
     margin-top: 5px;
-
 }
 
 .nav-close-menu {
@@ -698,7 +696,6 @@ h2 {
     text-align: center;
     transform: rotate(10deg);
     transition: var(--default-transition);
-
 }
 
 .popular-section .popular-section-items .popular-right .item:hover::after {
@@ -996,9 +993,6 @@ h2 {
     color: var(--main-color);
 }
 
-
-
-
 /* farm-right */
 .farm-section .farm-section-items .farm-right {
     width: 32%;
@@ -1148,7 +1142,6 @@ h2 {
     position: relative;
     border-radius: 3px;
     background-color: rgba(255, 255, 255, 0.5);
-
 }
 
 .farm-section .farm-section-items .farm-right .item-social ul li a {
@@ -1361,9 +1354,7 @@ h2 {
     color: rgba(0, 0, 0, 0.61);
 }
 
-
 /* GALLERY */
-
 .gallery-section {
     width: 100%;
     display: flex;
@@ -1385,7 +1376,6 @@ h2 {
     position: relative;
     overflow: hidden;
 }
-
 
 .gallery-section .gallery-item .item::after {
     content: attr(data-gallery);
@@ -1420,38 +1410,30 @@ h2 {
 }
 
 .gallery-section .gallery-item .item1 {
-
     background: url("../img/Mixed-fruits.jpg") no-repeat center center;
     background-size: cover;
 }
 
 .gallery-section .gallery-item .item2 {
-
     background: url("../img/r-rachel-park-366508-unsplash-min.jpg") no-repeat center center;
     background-size: cover;
 }
 
 .gallery-section .gallery-item .item3 {
-
     background: url("../img/r-michelle-tsang-500721-unsplash-min.jpg") no-repeat center center;
     background-size: cover;
 }
 
 .gallery-section .gallery-item .item4 {
-
     background: url("../img/quick-summer-drink.jpg") no-repeat center center;
     background-size: cover;
 }
-
-
-
 
 /* CONTACT US */
 .contact-section {
     width: 100%;
     background-color: white;
     padding-top: 80px;
-
 }
 
 .contact-section-inner {
@@ -1468,8 +1450,6 @@ h2 {
     flex-direction: column;
     gap: 20px;
 }
-
-
 
 .contact-section-inner .item h3 {
     letter-spacing: 3px;
@@ -1559,7 +1539,6 @@ h2 {
     opacity: 1;
 }
 
-
 .contact-section-inner .item2 {
     display: flex;
     flex-direction: column;
@@ -1643,9 +1622,7 @@ h2 {
     width: 100%;
 }
 
-
 /* FOOTER */
-
 footer {
     width: 100%;
     height: 90px;
@@ -1676,8 +1653,6 @@ footer {
     color: var(--main-color);
 }
 
-
-
 /* JUMP */
 .jump-section {
     width: 48px;
@@ -1707,9 +1682,6 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
-
-
 
 /* RESPONSIVE */
 /* for 1440px   */
@@ -1751,7 +1723,6 @@ footer {
     /* FARM TO TABLE */
     /* farm-section-items */
     /* farm-right */
-
     .farm-section .farm-section-items .farm-right .item-city .item-city-text {
         font-size: 23px;
     }
@@ -1786,7 +1757,6 @@ footer {
     .popular-section .popular-section-items .popular-right {
         width: 95%;
         margin: 0 auto 40px auto;
-
     }
 
     /* CULINARY COLLECTION */
@@ -1814,9 +1784,7 @@ footer {
         font-size: 24px;
     }
 
-
     /* farm-right */
-
     .farm-section .farm-section-items .farm-right {
         width: 100%;
     }
@@ -1854,7 +1822,6 @@ footer {
         font-size: 16px;
     }
 
-
     /*  subscribe */
     .subscribe-section .subscribe-section-content {
         max-width: 1000px;
@@ -1876,7 +1843,6 @@ footer {
     }
 
     /* GALLERY */
-
     .gallery-section .gallery-item {
         width: 50%;
         height: 300px;
@@ -1908,9 +1874,6 @@ footer {
         font-size: 14px;
     }
 
-
-
-
     /* CONTACT US */
     .contact-section-inner .item h3 {
         letter-spacing: 1px;
@@ -1921,7 +1884,6 @@ footer {
 
 /* for Mobile L */
 @media (max-width:767px) {
-
     /* HEADER */
     /* header-left-section */
     .header-section .left-section {
@@ -1943,13 +1905,11 @@ footer {
         font-size: 37px;
     }
 
-
     /* HERO */
     /* hero-items */
     .hero-section .hero-items .hero-items-gallery figure p {
         font-size: 12px;
     }
-
 
     /* FARM TO TABLE */
     /* farm-section-items */
@@ -1967,8 +1927,6 @@ footer {
     .farm-section .farm-section-items .farm-right .item-city .item-city-text {
         font-size: 23px;
     }
-
-
 
     /* CONTACT US */
     .contact-section-inner .item1 .contact-item-icon img {
@@ -2086,8 +2044,6 @@ footer {
         height: 100%;
     }
 
-
-
     .nav-section .nav-bar .nav-menu-items li a:hover {
         color: var(--main-color);
         color: white;
@@ -2098,7 +2054,6 @@ footer {
         width: 100%;
         display: none;
     }
-
 
     .nav-section .nav-bar .nav-menu-items li:first-child a {
         color: white;
@@ -2128,15 +2083,11 @@ footer {
         display: none;
     }
 
-
-
     /* HERO */
     .hero-section {
         height: 1300px;
         margin-top: 40px;
     }
-
-
 
     .hero-section .hero-title h1 {
         font-size: 30px;
@@ -2155,7 +2106,6 @@ footer {
     }
 
     /* CONTACT US */
-
     .contact-section-inner .item {
         width: 100%;
         padding-bottom: 45px;
@@ -2181,9 +2131,6 @@ footer {
 
 /* for 560px   */
 @media (max-width:560px) {
-
-
-
     /* HEADER */
     /* header-right-section */
 
@@ -2196,8 +2143,6 @@ footer {
         margin: 3px 0;
         width: 100%;
     }
-
-
 
     .header-section .right-section ul li p {
         top: 50%;
@@ -2284,8 +2229,6 @@ footer {
 
 /* for 500px */
 @media (max-width:500px) {
-
-
     /* NAV */
     .nav-section ul li a {
         font-size: 12px;
@@ -2296,8 +2239,6 @@ footer {
     .hero-section {
         height: 1850px;
     }
-
-
 
     /* hero-title */
     .hero-section .hero-title h1 {
@@ -2347,16 +2288,13 @@ footer {
 @media (max-width:424px) {
 
     /* HEADER */
-
     /* header-left-section */
-
     .header-section .left-section a {
         font-size: 14px;
     }
 
 
     /* header-right-section */
-
     .header-section .right-section ul {
         width: 25px;
         display: block;
@@ -2365,7 +2303,6 @@ footer {
     .header-section .right-section ul li {
         margin: 4px 0;
         width: 100%;
-
     }
 
     .header-section .right-section ul li a {
@@ -2441,10 +2378,7 @@ footer {
 
 /* for Mobile M */
 @media (max-width:374px) {
-
     /* NAV */
-
-
     .nav-section ul li a {
         font-size: 11px;
         padding: 4px 1px 6px 1px;
@@ -2452,7 +2386,6 @@ footer {
 
     /* HEADER */
     /* header-left-section */
-
     .header-section .left-section a {
         font-size: 12px;
     }
@@ -2469,5 +2402,4 @@ footer {
         width: 95%;
         margin: 10px auto;
     }
-
 }
