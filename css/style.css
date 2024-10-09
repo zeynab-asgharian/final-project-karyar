@@ -176,7 +176,7 @@ h2 {
     border: 6px solid transparent;
     border-bottom-color: rgb(76, 76, 76);
     position: absolute;
-    top: -50%;
+    top: -55%;
     left: 50%;
     transform: translate(-50%, 25%);
 }
@@ -1175,7 +1175,7 @@ h2 {
     border: 6px solid transparent;
     border-bottom-color: rgb(76, 76, 76);
     position: absolute;
-    top: -50%;
+    top: -55%;
     left: 50%;
     transform: translate(-50%, 25%);
 }
@@ -1529,7 +1529,7 @@ h2 {
     border: 6px solid transparent;
     border-bottom-color: rgb(76, 76, 76);
     position: absolute;
-    top: -50%;
+    top: -55%;
     left: 50%;
     transform: translate(-50%, 26%);
 }
