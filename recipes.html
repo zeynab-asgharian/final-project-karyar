@@ -9,6 +9,7 @@
     />
     <title>Recipes page</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/recipes.css">
     <link rel="icon" href="img/food-favicon.webp" />
 
     <!-- font-awesome -->
@@ -17,5 +18,109 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
   </head>
-  <body></body>
+  <body>
+
+    <header>
+        <!-- HEADER -->
+        <div class="container">
+          <div class="header-section">
+            <!-- header-left-section -->
+            <div class="left-section">
+              <a href="" target="_blank"
+                >Download App <span class="ios">ios</span></a
+              >
+              <a href="" target="_blank">Advertise with us</a>
+            </div>
+  
+            <!-- header-middle-section  -->
+            <div class="middle-section">
+              <img src="img/avada-food-logo.svg" alt="Avada Food Logo" />
+            </div>
+  
+            <!-- header-right-section  -->
+            <nav class="right-section">
+              <ul>
+                <li>
+                  <a href="" target="_blank" class="fa-brands fa-facebook-f"></a>
+                  <p>facebook</p>
+                </li>
+                <li>
+                  <a href="" target="_blank" class="fa-brands fa-instagram"></a>
+                  <p>instagram</p>
+                </li>
+                <li>
+                  <a href="" target="_blank" class="fa-brands fa-x-twitter"> </a>
+                  <p class="social-x">X</p>
+                </li>
+                <li>
+                  <a href="" target="_blank" class="fa-brands fa-youtube"></a>
+                  <p>YouTube</p>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+  
+        <!-- NAV -->
+        <nav class="nav-section">
+          <ul class="nav-bar">
+            <!--input for hamburger menu section -->
+            <input type="checkbox" id="nav-hamburger" />
+            <!--input for nav bar search box -->
+            <input type="checkbox" id="search-box-total-id" />
+            <!-- nav menu-->
+            <div class="nav-menu-items">
+              <li>
+                <a href="" target="_blank">Home </a>
+              </li>
+              <li class="recipes-item">
+                <a href="recipes.html" target="_blank">Recipes </a>
+              </li>
+              <li>
+                <a href="" target="_blank">Places </a>
+              </li>
+              <li>
+                <a href="" target="_blank">Blog </a>
+              </li>
+              <li>
+                <a href="" target="_blank">About </a>
+              </li>
+              <li>
+                <a href="" target="_blank">contact </a>
+              </li>
+              <label for="search-box-total-id" class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </label>
+  
+              <!-- for rexponsive -->
+              <li class="search-box">
+                <span><i class="fa-solid fa-magnifying-glass"></i> </span>
+                <input type="search" placeholder="Search" />
+              </li>
+              <label for="nav-hamburger" class="nav-close-menu"
+                ><i class="fas fa-times"></i
+              ></label>
+            </div>
+            <!-- for nav bar search box -->
+            <div class="nav-menu-input">
+              <ul>
+                <label for="search-box-total-id" class="cancle-icon"
+                  ><i class="fas fa-times"></i
+                ></label>
+                <li class="search-box-total">
+                  <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                  <input type="search" placeholder="Search" />
+                </li>
+              </ul>
+            </div>
+            <!-- for hamburger menu -->
+            <label for="nav-hamburger" class="nav-open-menu"
+              ><i class="fa-solid fa-burger"></i
+            ></label>
+          </ul>
+        </nav>
+      </header>
+  
+
+  </body>
 </html>

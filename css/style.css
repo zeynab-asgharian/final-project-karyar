@@ -284,14 +284,12 @@ h2 {
 
 .nav-section .nav-bar .nav-menu-items li:first-child a {
     color: var(--main-color);
-
 }
 
 .nav-section .nav-bar .nav-menu-items li:first-child a::after {
     color: var(--main-color);
     width: 100%;
     animation: none;
-
 }
 
 .nav-section .nav-bar .nav-menu-items .search-icon {
