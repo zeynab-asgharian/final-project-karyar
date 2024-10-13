@@ -1,3 +1,9 @@
+:root {
+    --default-transition: all 0.5s;
+    --main-color: rgb(251, 118, 33);
+    --main-color-hover: rgb(235, 97, 11);
+}
+
 
 /* NAV */
 .nav-section .nav-bar .nav-menu-items li:first-child a {
@@ -5,13 +11,14 @@
     color: #39323a;
 }
 
-.nav-section .nav-bar .nav-menu-items .recipes-item a{
+.nav-section .nav-bar .nav-menu-items .recipes-item a {
     color: var(--main-color);
 }
 
 .nav-section .nav-bar .nav-menu-items li:first-child a::after {
     width: 0;
 }
+
 .nav-section .nav-bar .nav-menu-items .recipes-item a::after {
     color: var(--main-color);
     width: 100%;
@@ -26,6 +33,10 @@
 }
 
 /* HERO */
+.hero-section {
+    background-color: palevioletred;
+    height: 980px;
+}
 
 .hero-section .hero-section-background {
     background: url("../img/food.jpg") no-repeat 40% 10%;
@@ -42,3 +53,91 @@
 .hero-section .hero-items {
     top: 385px;
 }
+
+/* EXPLORE RECIPES */
+/* explore-section-title */
+.explore-section .explore-section-title {
+    width: 90%;
+    max-width: 570px;
+    text-align: center;
+    margin: 10px auto 80px auto;
+}
+
+.explore-section .explore-section-title h3 {
+    letter-spacing: 3px;
+    font-size: 17px;
+}
+
+.explore-section .explore-section-title p {
+    line-height: 28px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* explore-section-items */
+.explore-section .explore-section-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.explore-section .explore-section-items .explore-item {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.explore-section .explore-section-items .item1 {
+    width: 48%;
+    height: 400px;
+}
+
+.explore-section .explore-section-items .item2{
+    width: 31%;
+    height: 650px;
+    margin-top: 55px;
+}
+
+
+.explore-section .explore-section-items .explore-item .explore-img {
+    width: 100%;
+    overflow: hidden;
+}
+.explore-section .explore-section-items .item1 .explore-img {
+    height: 85%;
+}
+.explore-section .explore-section-items .item2 .explore-img {
+    height: 90%;
+}
+.explore-section .explore-section-items .explore-item .explore-img img {
+    width: 100%;
+    transition: all 1s;
+}
+.explore-section .explore-section-items .explore-item .explore-img:hover img {
+    transform: scale(1.1);
+}
+.explore-section .explore-section-items .explore-item figcaption {
+    width: 100%;
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+    font-weight: 700;
+    font-size: 20px;
+}
+.explore-section .explore-section-items .item1 figcaption{
+    height: 15%;
+}
+.explore-section .explore-section-items .item2 figcaption{
+    height: 10%;
+}
+.explore-section .explore-section-items figcaption:hover {
+background-color: var(--main-color);
+color: white;
+}
+
