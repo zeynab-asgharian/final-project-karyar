@@ -9,7 +9,7 @@
     />
     <title>Recipes page</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/recipes.css">
+    <link rel="stylesheet" href="css/recipes.css" />
     <link rel="icon" href="img/food-favicon.webp" />
 
     <!-- font-awesome -->
@@ -19,108 +19,152 @@
     />
   </head>
   <body>
-
     <header>
-        <!-- HEADER -->
-        <div class="container">
-          <div class="header-section">
-            <!-- header-left-section -->
-            <div class="left-section">
-              <a href="" target="_blank"
-                >Download App <span class="ios">ios</span></a
-              >
-              <a href="" target="_blank">Advertise with us</a>
-            </div>
-  
-            <!-- header-middle-section  -->
-            <div class="middle-section">
-              <img src="img/avada-food-logo.svg" alt="Avada Food Logo" />
-            </div>
-  
-            <!-- header-right-section  -->
-            <nav class="right-section">
-              <ul>
-                <li>
-                  <a href="" target="_blank" class="fa-brands fa-facebook-f"></a>
-                  <p>facebook</p>
-                </li>
-                <li>
-                  <a href="" target="_blank" class="fa-brands fa-instagram"></a>
-                  <p>instagram</p>
-                </li>
-                <li>
-                  <a href="" target="_blank" class="fa-brands fa-x-twitter"> </a>
-                  <p class="social-x">X</p>
-                </li>
-                <li>
-                  <a href="" target="_blank" class="fa-brands fa-youtube"></a>
-                  <p>YouTube</p>
-                </li>
-              </ul>
-            </nav>
+      <!-- HEADER -->
+      <div class="container">
+        <div class="header-section">
+          <!-- header-left-section -->
+          <div class="left-section">
+            <a href="" target="_blank"
+              >Download App <span class="ios">ios</span></a
+            >
+            <a href="" target="_blank">Advertise with us</a>
           </div>
+
+          <!-- header-middle-section  -->
+          <div class="middle-section">
+            <img src="img/avada-food-logo.svg" alt="Avada Food Logo" />
+          </div>
+
+          <!-- header-right-section  -->
+          <nav class="right-section">
+            <ul>
+              <li>
+                <a href="" target="_blank" class="fa-brands fa-facebook-f"></a>
+                <p>facebook</p>
+              </li>
+              <li>
+                <a href="" target="_blank" class="fa-brands fa-instagram"></a>
+                <p>instagram</p>
+              </li>
+              <li>
+                <a href="" target="_blank" class="fa-brands fa-x-twitter"> </a>
+                <p class="social-x">X</p>
+              </li>
+              <li>
+                <a href="" target="_blank" class="fa-brands fa-youtube"></a>
+                <p>YouTube</p>
+              </li>
+            </ul>
+          </nav>
         </div>
-  
-        <!-- NAV -->
-        <nav class="nav-section">
-          <ul class="nav-bar">
-            <!--input for hamburger menu section -->
-            <input type="checkbox" id="nav-hamburger" />
-            <!--input for nav bar search box -->
-            <input type="checkbox" id="search-box-total-id" />
-            <!-- nav menu-->
-            <div class="nav-menu-items">
-              <li>
-                <a href="" target="_blank">Home </a>
-              </li>
-              <li class="recipes-item">
-                <a href="recipes.html" target="_blank">Recipes </a>
-              </li>
-              <li>
-                <a href="" target="_blank">Places </a>
-              </li>
-              <li>
-                <a href="" target="_blank">Blog </a>
-              </li>
-              <li>
-                <a href="" target="_blank">About </a>
-              </li>
-              <li>
-                <a href="" target="_blank">contact </a>
-              </li>
-              <label for="search-box-total-id" class="search-icon">
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </label>
-  
-              <!-- for rexponsive -->
-              <li class="search-box">
-                <span><i class="fa-solid fa-magnifying-glass"></i> </span>
-                <input type="search" placeholder="Search" />
-              </li>
-              <label for="nav-hamburger" class="nav-close-menu"
+      </div>
+
+      <!-- NAV -->
+      <nav class="nav-section">
+        <ul class="nav-bar">
+          <!--input for hamburger menu section -->
+          <input type="checkbox" id="nav-hamburger" />
+          <!--input for nav bar search box -->
+          <input type="checkbox" id="search-box-total-id" />
+          <!-- nav menu-->
+          <div class="nav-menu-items">
+            <li>
+              <a href="" target="_blank">Home </a>
+            </li>
+            <li class="recipes-item">
+              <a href="recipes.html" target="_blank">Recipes </a>
+            </li>
+            <li>
+              <a href="" target="_blank">Places </a>
+            </li>
+            <li>
+              <a href="" target="_blank">Blog </a>
+            </li>
+            <li>
+              <a href="" target="_blank">About </a>
+            </li>
+            <li>
+              <a href="" target="_blank">contact </a>
+            </li>
+            <label for="search-box-total-id" class="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </label>
+
+            <!-- for rexponsive -->
+            <li class="search-box">
+              <span><i class="fa-solid fa-magnifying-glass"></i> </span>
+              <input type="search" placeholder="Search" />
+            </li>
+            <label for="nav-hamburger" class="nav-close-menu"
+              ><i class="fas fa-times"></i
+            ></label>
+          </div>
+          <!-- for nav bar search box -->
+          <div class="nav-menu-input">
+            <ul>
+              <label for="search-box-total-id" class="cancle-icon"
                 ><i class="fas fa-times"></i
               ></label>
-            </div>
-            <!-- for nav bar search box -->
-            <div class="nav-menu-input">
-              <ul>
-                <label for="search-box-total-id" class="cancle-icon"
-                  ><i class="fas fa-times"></i
-                ></label>
-                <li class="search-box-total">
-                  <span><i class="fa-solid fa-magnifying-glass"></i></span>
-                  <input type="search" placeholder="Search" />
-                </li>
-              </ul>
-            </div>
-            <!-- for hamburger menu -->
-            <label for="nav-hamburger" class="nav-open-menu"
-              ><i class="fa-solid fa-burger"></i
-            ></label>
-          </ul>
-        </nav>
-      </header>
-  
+              <li class="search-box-total">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="search" placeholder="Search" />
+              </li>
+            </ul>
+          </div>
+          <!-- for hamburger menu -->
+          <label for="nav-hamburger" class="nav-open-menu"
+            ><i class="fa-solid fa-burger"></i
+          ></label>
+        </ul>
+      </nav>
+    </header>
 
+    <main>
+      <!-- HERO -->
+      <div class="hero-section">
+        <!-- hero-title -->
+        <div class="hero-section-background">
+          <section class="hero-title">
+            <h1>All Recipes</h1>
+            <p class="last-child">Unique and delicious recipes from around the world</p>
+          </section>
+        </div>
+
+        <!-- hero-items -->
+        <div class="container">
+          <section class="hero-items">
+            <div class="hero-items-title">
+              <span></span>
+              <h3>TOP RECIPES</h3>
+              <span></span>
+            </div>
+            <div class="hero-items-gallery">
+              <figure>
+                <div class="pic">
+                  <img src="img/Yogurt-Nan.jpg" alt="image" />
+                </div>
+                <h2>Lunch Favourite with Salad, Naan And Beans</h2>
+                <p><span>admin</span> | March 18th, 2019</p>
+              </figure>
+              <figure>
+                <div class="pic">
+                  <img src="img/Mixed-fruits.jpg" alt="roundup" />
+                </div>
+                <h2>Fruit Platter with Banana, Mango, Berries and Orange</h2>
+                <p><span>admin</span> | March 18th, 2019</p>
+              </figure>
+              <figure>
+                <div class="pic">
+                  <img src="img/r-rachel-park-366508-unsplash-min.jpg" alt="korean-food" />
+                </div>
+                <h2>Breakfast Delight With Strawberry, Egg And Fruit</h2>
+                <p><span>admin</span> | March 18th, 2019</p>
+              </figure>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

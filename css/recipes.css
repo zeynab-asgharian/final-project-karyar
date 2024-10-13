@@ -24,3 +24,21 @@
 .nav-section .nav-bar .nav-menu-items li a:hover::after {
     width: 100%;
 }
+
+/* HERO */
+
+.hero-section .hero-section-background {
+    background: url("../img/food.jpg") no-repeat 40% 10%;
+    background-size: cover;
+    height: 450px;
+    background-attachment: fixed;
+}
+
+.hero-section .hero-title {
+    background-color: transparent;
+    color: white;
+}
+
+.hero-section .hero-items {
+    top: 385px;
+}
