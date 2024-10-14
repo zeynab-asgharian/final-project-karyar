@@ -84,7 +84,6 @@
 }
 
 .explore-section .explore-section-items .explore-item {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -181,4 +180,125 @@
 
 .featured-section .featured-item img {
     width: 70%;
+}
+
+/* RECENT  RECIPES */
+/* recent-section-title */
+.recent-section .recent-section-title {
+    width: 90%;
+    max-width: 570px;
+    text-align: center;
+    margin: 120px auto 80px auto;
+}
+
+.recent-section .recent-section-title h3 {
+    letter-spacing: 3px;
+    font-size: 17px;
+}
+
+.recent-section .recent-section-title p {
+    line-height: 28px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* recent-section-items */
+.recent-section .recent-section-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.recent-section .recent-section-items figure {
+    width: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+    background-color: white;
+    padding-bottom: 15px;
+}
+
+.recent-section .recent-section-items figure .pic-parent {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.recent-section .recent-section-items figure .pic-parent img {
+    width: 100%;
+    transition: all 1s;
+    display: block;
+}
+
+.recent-section .recent-section-items figure .pic-parent:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.recent-section .recent-section-items figure figcaption h2 {
+    font-size: 21px;
+    text-align: center;
+    padding: 10px 7px;
+    font-weight: 100;
+    transition: var(--default-transition);
+    cursor: pointer;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recent-section .recent-section-items figure figcaption h2:hover {
+    color: var(--main-color);
+}
+
+.recent-section .recent-section-items figure figcaption p {
+    text-align: center;
+}
+
+.recent-section .recent-section-items figure figcaption p span {
+    transition: var(--default-transition);
+}
+
+.recent-section .recent-section-items figure figcaption p span:hover {
+    color: var(--main-color);
+    cursor: pointer;
+
+}
+
+
+@media (max-width:1000px) {
+
+    /* recent-section-items */
+    .recent-section .recent-section-items figure figcaption h2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:768px) {
+
+    /* recent-section-items */
+    .recent-section .recent-section-items figure {
+        width: 48%;
+    }
+
+    .recent-section .recent-section-items figure figcaption h2 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:425px) {
+
+    /* recent-section-items */
+    .recent-section .recent-section-items figure {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .recent-section .recent-section-items figure figcaption h2 {
+        font-size: 16px;
+    }
 }
