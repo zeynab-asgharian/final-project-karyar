@@ -269,6 +269,34 @@
 
 }
 
+/* MORE SECTION */
+
+.more-section {
+    width: 100%;
+    transition: var(--default-transition);
+    padding: 12px;
+}
+
+.more-section p {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.more-section:hover {
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+
+.more-section:hover p {
+    color: white;
+}
+
 
 @media (max-width:1000px) {
 
