@@ -90,12 +90,13 @@
     justify-content: center;
     align-items: center;
 }
+
 .explore-section .explore-section-items .item1 {
     width: 48%;
     height: 400px;
 }
 
-.explore-section .explore-section-items .item2{
+.explore-section .explore-section-items .item2 {
     width: 31%;
     height: 650px;
     margin-top: 55px;
@@ -106,19 +107,24 @@
     width: 100%;
     overflow: hidden;
 }
+
 .explore-section .explore-section-items .item1 .explore-img {
     height: 85%;
 }
+
 .explore-section .explore-section-items .item2 .explore-img {
     height: 90%;
 }
+
 .explore-section .explore-section-items .explore-item .explore-img img {
     width: 100%;
     transition: all 1s;
 }
+
 .explore-section .explore-section-items .explore-item .explore-img:hover img {
     transform: scale(1.1);
 }
+
 .explore-section .explore-section-items .explore-item figcaption {
     width: 100%;
 
@@ -128,16 +134,51 @@
     align-items: center;
     transition: all 1s;
     font-weight: 700;
-    font-size: 20px;
-}
-.explore-section .explore-section-items .item1 figcaption{
-    height: 15%;
-}
-.explore-section .explore-section-items .item2 figcaption{
-    height: 10%;
-}
-.explore-section .explore-section-items figcaption:hover {
-background-color: var(--main-color);
-color: white;
+    font-size: 17px;
 }
 
+.explore-section .explore-section-items .item1 figcaption {
+    height: 15%;
+}
+
+.explore-section .explore-section-items .item2 figcaption {
+    height: 10%;
+}
+
+.explore-section .explore-section-items figcaption:hover {
+    background-color: var(--main-color);
+    color: white;
+}
+
+/* featured RECIPES */
+/* featured-section-title */
+.featured-section {
+    width: 100%;
+    text-align: center;
+    margin: 120px auto 80px auto;
+    background-color: rgb(234, 235, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.featured-section h3 {
+    margin-top: 100px;
+    width: 100%;
+    letter-spacing: 3px;
+    font-size: 17px;
+}
+
+.featured-section .featured-item {
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.featured-section .featured-item img {
+    width: 70%;
+}
