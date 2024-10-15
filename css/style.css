@@ -2056,11 +2056,9 @@ footer {
     .nav-section .nav-bar .nav-menu-items li:first-child a {
         color: white;
         background-color: var(--main-color);
-
     }
 
     .nav-section .nav-bar .nav-menu-items li:first-child a::after {
-
         display: none;
     }
 
