@@ -1,11 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Food - Avada Website Builder For WordPress & WooCommerce"
+    />
+    <title>Places page</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/places.css" />
+    <link rel="icon" href="img/food-favicon.webp" />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- HEADER -->
+      <div class="container">
+        <div class="header-section">
+          <!-- header-left-section -->
+          <div class="left-section">
+            <a href="" target="_blank"
+              >Download App <span class="ios">ios</span></a
+            >
+            <a href="" target="_blank">Advertise with us</a>
+          </div>
+
+          <!-- header-middle-section  -->
+          <div class="middle-section">
+            <img src="img/avada-food-logo.svg" alt="Avada Food Logo" />
+          </div>
+
+          <!-- header-right-section  -->
+          <nav class="right-section">
+            <ul>
+              <li>
+                <a href="" target="_blank" class="fa-brands fa-facebook-f"></a>
+                <p>facebook</p>
+              </li>
+              <li>
+                <a href="" target="_blank" class="fa-brands fa-instagram"></a>
+                <p>instagram</p>
+              </li>
+              <li>
+                <a href="" target="_blank" class="fa-brands fa-x-twitter"> </a>
+                <p class="social-x">X</p>
+              </li>
+              <li>
+                <a href="" target="_blank" class="fa-brands fa-youtube"></a>
+                <p>YouTube</p>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <!-- NAV -->
+      <nav class="nav-section">
+        <ul class="nav-bar">
+          <!--input for hamburger menu section -->
+          <input type="checkbox" id="nav-hamburger" />
+          <!--input for nav bar search box -->
+          <input type="checkbox" id="search-box-total-id" />
+          <!-- nav menu-->
+          <div class="nav-menu-items">
+            <li>
+              <a href="index.html" target="_blank">Home </a>
+            </li>
+            <li class="recipes-item">
+              <a href="recipes.html">Recipes </a>
+            </li>
+            <li>
+              <a href="" target="_blank">Places </a>
+            </li>
+            <li>
+              <a href="" target="_blank">Blog </a>
+            </li>
+            <li>
+              <a href="" target="_blank">About </a>
+            </li>
+            <li>
+              <a href="" target="_blank">contact </a>
+            </li>
+            <label for="search-box-total-id" class="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </label>
+
+            <!-- for rexponsive -->
+            <li class="search-box">
+              <span><i class="fa-solid fa-magnifying-glass"></i> </span>
+              <input type="search" placeholder="Search" />
+            </li>
+            <label for="nav-hamburger" class="nav-close-menu"
+              ><i class="fas fa-times"></i
+            ></label>
+          </div>
+          <!-- for nav bar search box -->
+          <div class="nav-menu-input">
+            <ul>
+              <label for="search-box-total-id" class="cancle-icon"
+                ><i class="fas fa-times"></i
+              ></label>
+              <li class="search-box-total">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="search" placeholder="Search" />
+              </li>
+            </ul>
+          </div>
+          <!-- for hamburger menu -->
+          <label for="nav-hamburger" class="nav-open-menu"
+            ><i class="fa-solid fa-burger"></i
+          ></label>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <div class="hero-section">
+        <!-- hero-title -->
+        <div class="hero-section-background">
+          <section class="hero-title">
+            <h1>Places</h1>
+            <p class="last-child">
+              My posts from travelling different cities around the world
+            </p>
+          </section>
+        </div>
+
+        <!-- hero-items -->
+        <div class="container">
+          <section class="hero-items">
+            <div class="hero-items-gallery">
+              <div class="hero-img-parent">
+                <figure class="item1"></figure>
+
+                <div class="hero-img-title">SINGAPORE</div>
+                <div class="hero-img-footer hero-img-footer1"><span>COUNTRY</span><span>Singapure</span></div>
+                <div class="hero-img-footer hero-img-footer2"><span>CONTINENT</span><span>Asia</span></div>
+                <div class="hero-img-footer hero-img-footer3"><span>FOOD RATINH</span><span>9.3/10</span></div>
+             
+              </div>
+
+              <div class="hero-img-parent">
+                <figure class="item2"></figure>
+                <div class="hero-img-title">LONDON</div>
+                <div class="hero-img-footer hero-img-footer1"><span>COUNTRY</span><span>United Kingdom</span></div>
+                <div class="hero-img-footer hero-img-footer2"><span>CONTINENT</span><span>Europe</span></div>
+                <div class="hero-img-footer hero-img-footer3"><span>FOOD RATINH</span><span>9.3/10</span></div>
+             
+            </div>
+
+              <div class="hero-img-parent">
+                <figure class="item3"></figure>
+
+                <div class="hero-img-title">NEW YORK</div>
+                <div class="hero-img-footer hero-img-footer1"><span>COUNTRY</span><span>United States</span></div>
+                <div class="hero-img-footer hero-img-footer2"><span>CONTINENT</span><span>North America</span></div>
+                <div class="hero-img-footer hero-img-footer3"><span>FOOD RATINH</span><span>9.3/10</span></div>
+             
+              </div>
+
+              <div class="hero-img-parent">
+                <figure class="item4"></figure>
+
+                <div class="hero-img-title">BALI</div>
+                <div class="hero-img-footer hero-img-footer1"><span>COUNTRY</span><span>Indonesia</span></div>
+                <div class="hero-img-footer hero-img-footer2"><span>CONTINENT</span><span>Asia</span></div>
+                <div class="hero-img-footer hero-img-footer3"><span>FOOD RATINH</span><span>9.3/10</span></div>
+             
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- SUBSCRIBE -->
+      <section class="subscribe-section">
+        <div class="subscribe-section-content">
+          <h2>Subscribe <span>&</span> Receive A Free eBook</h2>
+          <p class="subscribe-text">
+            Aliquam erat volutpat. Ut quis ligula a magna blandit finibus.
+            Suspendisse maximus lacus non nunc lacinia lobortis.
+          </p>
+          <form class="subscribe-input">
+            <input type="email" required placeholder="Insert your email ...*" />
+            <button>SUBSCRIBE</button>
+          </form>
+          <p class="subscribe-footer-text">
+            Cras porttitor pellentesque sem eu pretium.
+          </p>
+        </div>
+      </section>
+
+      <!-- JUMP -->
+      <div class="jump-section" id="">
+        <a href="#">></a>
+      </div>
+    </main>
+
+    <footer>
+      <!-- CONTACT US -->
+      <div class="contact-section">
+        <div class="container">
+          <div class="contact-section-inner">
+            <div class="item item1">
+              <div class="contact-item-icon">
+                <img
+                  src="img/avada-food-logo-mob-2x.png"
+                  alt="avada-food-logo"
+                />
+              </div>
+              <div class="contact-item-social">
+                <ul>
+                  <li>
+                    <a
+                      href=""
+                      target="_blank"
+                      class="fa-brands fa-facebook-f"
+                    ></a>
+                    <p>facebook</p>
+                  </li>
+                  <li>
+                    <a
+                      href=""
+                      target="_blank"
+                      class="fa-brands fa-instagram"
+                    ></a>
+                    <p>instagram</p>
+                  </li>
+                  <li>
+                    <a href="" target="_blank" class="fa-brands fa-x-twitter">
+                    </a>
+                    <p class="social-x">X</p>
+                  </li>
+                  <li>
+                    <a href="" target="_blank" class="fa-brands fa-youtube"></a>
+                    <p>YouTube</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="item item2">
+              <a href="">Recipes</a>
+              <a href="">Places</a>
+              <a href="">Blog</a>
+              <a href="">About</a>
+              <a href="">Contact</a>
+            </div>
+
+            <div class="item item3">
+              <h3>contact us</h3>
+              <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <p>12345 Avada Main Street, New York, NY 555555</p>
+              </div>
+
+              <div>
+                <i class="fa-solid fa-phone fa-flip-horizontal"></i>
+                <p>+ 0100-505-0000</p>
+              </div>
+              <div>
+                <i class="fa-solid fa-envelope"></i>
+                <p>info@avada-domain.com</p>
+              </div>
+            </div>
+            <div class="item item4">
+              <h3>get our app</h3>
+              <a href=""
+                ><img src="img/download-android.png" alt="android"
+              /></a>
+              <a href=""
+                ><img src="img/download-app-store.png" alt="app-store"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <div class="footer-section">
+        <p>
+          <i class="fa-regular fa-copyright"></i>
+          2012 - 2019 • <span>Avada</span> is a <span>Website Builder</span> for
+          <span>WordPress</span> and <span>eCommerce</span> • All Rights
+          Reserved • Developed by <span>ThemeFusion</span>
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
+
+<!--                 
+                <div class="hero-img-parent">
+                    <figure >
+                        <img src="img/singapore-vertical-.jpg" alt="">
+                    </figure>
+                </div>
+
+                <div class="hero-img-parent">
+                    <figure >
+                        <img src="img/singapore-vertical-.jpg" alt="">
+                    </figure>
+                </div>
+
+                <div class="hero-img-parent">
+                    <figure >
+                        <img src="img/singapore-vertical-.jpg" alt="">
+                    </figure>
+                </div>
+
+                <div class="hero-img-parent">
+                    <figure >
+                        <img src="img/singapore-vertical-.jpg" alt="">
+                    </figure>
+                </div> -->

@@ -1,0 +1,129 @@
+:root {
+    --default-transition: all 0.5s;
+    --main-color: rgb(251, 118, 33);
+    --main-color-hover: rgb(235, 97, 11);
+}
+
+
+/* HERO */
+.hero-section {
+    height: 1580px;
+    background-color: palevioletred;
+}
+.hero-section .hero-items {
+    padding-top: 40px;
+}
+
+.hero-section .hero-section-background {
+    background: url("../img/places-guides-top-bar.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+}
+
+.hero-section .hero-section-background .hero-title {
+    background-color: transparent;
+    color: white;
+}
+
+.hero-section .hero-section-background .hero-title p {
+    font-size: 17px;
+}
+
+.hero-section .hero-items {
+    top: 385px;
+}
+
+
+.hero-section .hero-items .hero-items-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-section .hero-items .hero-items-gallery .hero-img-parent {
+    width: 48%;
+    height: 500px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-section .hero-items .hero-items-gallery .hero-img-parent figure {
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.hero-section .hero-items .hero-items-gallery .hero-img-parent:hover figure {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.hero-section .hero-items .hero-items-gallery .hero-img-parent .item1 {
+    width: 100%;
+    background-color: yellowgreen;
+    background: url("../img/singapore-vertical-.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.hero-section .hero-items .hero-items-gallery .hero-img-parent .item2 {
+    background: url("../img/london-places.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.hero-section .hero-items .hero-items-gallery .hero-img-parent .item3 {
+    background: url("../img/ny-vertical.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.hero-section .hero-items .hero-items-gallery .hero-img-parent .item4 {
+    background: url("../img/bali-vertical.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.hero-section .hero-items .hero-items-gallery .hero-img-parent .hero-img-title {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: white;
+    padding: 8px 25px;
+    font-weight: 700;
+}
+
+.hero-section .hero-items .hero-items-gallery .hero-img-parent .hero-img-footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    height: 110px;
+}
+
+.hero-section .hero-items .hero-items-gallery .hero-img-parent .hero-img-footer1 {
+    bottom: 0;
+    left: 0;
+
+}
+
+.hero-section .hero-items .hero-items-gallery .hero-img-parent .hero-img-footer2 {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.hero-section .hero-items .hero-items-gallery .hero-img-parent .hero-img-footer3 {
+    bottom: 0;
+    left: 100%;
+    transform: translate(-100%, 0);
+}
+
+
+.subscribe-section {
+    margin-top: 0;
+}
