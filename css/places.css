@@ -8,8 +8,8 @@
 /* HERO */
 .hero-section {
     height: 1580px;
-    background-color: palevioletred;
 }
+
 .hero-section .hero-items {
     padding-top: 40px;
 }
@@ -123,7 +123,117 @@
     transform: translate(-100%, 0);
 }
 
-
+/* SUBSCRIBE */
 .subscribe-section {
     margin-top: 0;
+    margin-bottom: 80px;
+}
+
+
+
+/* responsive */
+@media (max-width: 1180px) {
+
+    /* HERO */
+    .hero-section {
+        height: 2680px;
+    }
+
+    .hero-section .hero-items .hero-items-gallery .hero-img-parent .hero-img-footer {
+
+        width: 125px;
+        height: 110px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .hero-section .hero-items .hero-items-gallery .hero-img-parent {
+        width: 95%;
+    }
+
+    .hero-section .hero-items .hero-items-gallery .hero-img-parent .hero-img-footer {
+
+        width: 160px;
+        height: 110px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .hero-section .hero-items .hero-items-gallery .hero-img-parent .hero-img-footer {
+
+        width: 140px;
+        height: 110px;
+    }
+}
+
+@media (max-width: 620px) {
+
+    .hero-section .hero-items .hero-items-gallery .hero-img-parent .hero-img-footer {
+
+        width: 120px;
+        height: 110px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .hero-section .hero-items .hero-items-gallery .hero-img-parent .hero-img-footer {
+
+        width: 105px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .hero-section .hero-items .hero-items-gallery .hero-img-parent .hero-img-footer {
+
+        width: 95px;
+        height: 90px;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 440px) {
+
+    .hero-section .hero-items .hero-items-gallery .hero-img-parent .hero-img-footer {
+
+        width: 85px;
+        height: 85px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .hero-section .hero-items .hero-items-gallery .hero-img-parent .hero-img-footer {
+
+        width: 75px;
+        height: 75px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 370px) {
+
+    .hero-section .hero-items .hero-items-gallery .hero-img-parent .hero-img-footer1 {
+        bottom: 180px;
+
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .hero-section .hero-items .hero-items-gallery .hero-img-parent .hero-img-footer2 {
+        bottom: 90px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .hero-section .hero-items .hero-items-gallery .hero-img-parent .hero-img-footer3 {
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
 }
