@@ -34,13 +34,15 @@
 /* HERO */
 .hero-section {
     height: 480px;
-   background-color: aquamarine;
+    background-color: aquamarine;
 }
+
 .hero-section .hero-section-background {
-    background-image: url("../img/page-title-bar-bg-1.png") , linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7));
+    background-image: url("../img/page-title-bar-bg-1.png"), linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
     background-size: cover;
     height: 450px;
 }
+
 .hero-section .hero-section-background .hero-title {
     background-color: transparent;
     color: white;
@@ -53,18 +55,19 @@
 /* FARM TO TABLE */
 .farm-section .farm-left {
     background-color: rgb(207, 171, 243);
-    width: 100%;  
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .farm-section .farm-section-items .farm-left figure {
-    width: 48%;  
+    width: 48%;
     background-color: white;
     margin-bottom: 40px;
     transition: all 1s;
 }
+
 .farm-section .farm-section-items .farm-left figure:hover {
     transform: scale(1.05);
     cursor: pointer;
@@ -73,20 +76,64 @@
 .farm-section .farm-section-items .farm-left figure img {
     width: 100%;
 }
+
 .farm-section .farm-section-items .farm-left figure figcaption {
     font-size: 24px;
     line-height: 26px;
     padding: 35px 30px 20px 30px;
     font-family: Vidaloka;
 }
-.farm-section .farm-section-items .farm-left figure p{
+
+.farm-section .farm-section-items .farm-left figure p {
     padding: 0 30px 0 30px;
 }
 
-.farm-section .farm-section-items .farm-left figure .admin-text{
+.farm-section .farm-section-items .farm-left figure .admin-text {
     padding: 0 30px 25px 30px;
 }
 
 .farm-section .farm-section-items .farm-left figure .button {
     padding: 25px 30px;
+}
+
+.farm-section .farm-section-items .farm-right .item-subscribe {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.farm-section .farm-section-items .farm-right .item-subscribe img {
+    width: 100%;
+}
+.farm-section .farm-section-items .farm-right .item-subscribe h2 {
+    width: 90%;
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 8px;
+}
+.farm-section .farm-section-items .farm-right .item-subscribe p {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.farm-section .farm-section-items .farm-right .item-subscribe input {
+    width: 90%;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    margin-bottom: 20px;
+}
+.farm-section .farm-section-items .farm-right .item-subscribe button {
+    width: 90%;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 3px;
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 18px;
 }
