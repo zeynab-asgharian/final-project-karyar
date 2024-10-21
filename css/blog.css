@@ -49,3 +49,44 @@
 .hero-section .hero-section-background .hero-title p {
     font-size: 17px;
 }
+
+/* FARM TO TABLE */
+.farm-section .farm-left {
+    background-color: rgb(207, 171, 243);
+    width: 100%;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.farm-section .farm-section-items .farm-left figure {
+    width: 48%;  
+    background-color: white;
+    margin-bottom: 40px;
+    transition: all 1s;
+}
+.farm-section .farm-section-items .farm-left figure:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.farm-section .farm-section-items .farm-left figure img {
+    width: 100%;
+}
+.farm-section .farm-section-items .farm-left figure figcaption {
+    font-size: 24px;
+    line-height: 26px;
+    padding: 35px 30px 20px 30px;
+    font-family: Vidaloka;
+}
+.farm-section .farm-section-items .farm-left figure p{
+    padding: 0 30px 0 30px;
+}
+
+.farm-section .farm-section-items .farm-left figure .admin-text{
+    padding: 0 30px 25px 30px;
+}
+
+.farm-section .farm-section-items .farm-left figure .button {
+    padding: 25px 30px;
+}
