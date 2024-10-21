@@ -30,3 +30,22 @@
 .nav-section .nav-bar .nav-menu-items li a:hover::after {
     width: 100%;
 }
+
+/* HERO */
+.hero-section {
+    height: 480px;
+   background-color: aquamarine;
+}
+.hero-section .hero-section-background {
+    background-image: url("../img/page-title-bar-bg-1.png") , linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7));
+    background-size: cover;
+    height: 450px;
+}
+.hero-section .hero-section-background .hero-title {
+    background-color: transparent;
+    color: white;
+}
+
+.hero-section .hero-section-background .hero-title p {
+    font-size: 17px;
+}
