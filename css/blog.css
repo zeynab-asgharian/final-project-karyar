@@ -1,0 +1,32 @@
+:root {
+    --default-transition: all 0.5s;
+    --main-color: rgb(251, 118, 33);
+    --main-color-hover: rgb(235, 97, 11);
+}
+
+/* NAV */
+.nav-section .nav-bar .nav-menu-items li:first-child a {
+
+    color: #39323a;
+}
+
+.nav-section .nav-bar .nav-menu-items .blog-item a {
+    color: var(--main-color);
+}
+
+.nav-section .nav-bar .nav-menu-items li:first-child a::after {
+    width: 0;
+}
+
+.nav-section .nav-bar .nav-menu-items .blog-item a::after {
+    color: var(--main-color);
+    width: 100%;
+}
+
+.nav-section .nav-bar .nav-menu-items li a:hover {
+    color: var(--main-color);
+}
+
+.nav-section .nav-bar .nav-menu-items li a:hover::after {
+    width: 100%;
+}
