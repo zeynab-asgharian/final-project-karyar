@@ -34,7 +34,6 @@
 /* HERO */
 .hero-section {
     height: 480px;
-    background-color: aquamarine;
 }
 
 .hero-section .hero-section-background {
@@ -54,7 +53,6 @@
 
 /* FARM TO TABLE */
 .farm-section .farm-left {
-    background-color: rgb(207, 171, 243);
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -136,4 +134,12 @@
     border: none;
     margin-bottom: 20px;
     font-size: 18px;
+}
+
+@media (max-width:500px) {
+    .farm-section .farm-section-items .farm-left figure {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
